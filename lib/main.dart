@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:learning/buttons.dart';
 import 'package:learning/listview_gridview.dart';
 import 'package:learning/rows_cols.dart';
+import 'package:learning/snackbar.dart';
 import 'container_size.dart';
 void main()=>runApp(new Myapp());
 
@@ -16,7 +17,7 @@ class Myapp extends StatelessWidget {
       brightness: Brightness.dark,
       primaryColor: Colors.deepPurple,
     ),
-      home: listandgrid(),
+      home: Snackbarwidget(),
       //home:button()
       //home: rows_cols(),
       // home: Container_size(),
